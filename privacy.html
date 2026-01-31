@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyTicketBox — Privacy Policy</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+  <div class="container my-5" style="max-width: 920px;">
+    <div class="card shadow-lg">
+      <div class="card-body p-4 p-md-5">
+        <div class="d-flex justify-content-between align-items-center flex-wrap gap-2">
+          <h1 class="card-title mb-0">Privacy Policy</h1>
+          <a href="index.html" class="btn btn-outline-secondary btn-sm">Support</a>
+        </div>
+
+        <p class="text-muted mt-2">Effective Date: January 31, 2026</p>
+
+        <p>
+          MyTicketBox is designed to work without our own servers. Your ticket data is stored locally on your device.
+          Optical Character Recognition (OCR) is processed on-device using Apple’s Vision framework.
+          We do not sell your data and we do not use third-party advertising trackers.
+        </p>
+
+        <hr class="my-4">
+
+        <h2 class="h5 mt-4">1. Data Stored by the App (On Device)</h2>
+        <p class="mb-2">For each ticket, the app may store:</p>
+        <ul>
+          <li>Ticket ID (UUID)</li>
+          <li>Amount</li>
+          <li>Date</li>
+          <li>Category</li>
+          <li>Store name (optional)</li>
+          <li>Note (optional)</li>
+          <li>Ticket image (optional, stored locally)</li>
+          <li>Creation date</li>
+        </ul>
+        <p class="text-muted mb-0">
+          Storage: Local database on your device (SwiftData). No external server sync is used.
+        </p>
+
+        <h2 class="h5 mt-4">2. System Permissions</h2>
+        <ul>
+          <li><strong>Camera</strong>: to capture ticket photos</li>
+          <li><strong>Photos</strong>: to import ticket images from your photo library</li>
+        </ul>
+        <p class="text-muted">
+          These permissions are used only when you explicitly choose to capture or import an image.
+          Images are stored locally on your device.
+        </p>
+
+        <h2 class="h5 mt-4">3. OCR (On-Device Processing)</h2>
+        <p>
+          MyTicketBox uses Apple’s Vision framework to recognize text on your device.
+          The recognized text may be processed temporarily to prefill fields (amount, date, store name, and category).
+          The full raw recognized text is not stored permanently.
+          You can always edit fields before saving.
+        </p>
+
+        <h2 class="h5 mt-4">4. In-App Purchases (Subscriptions)</h2>
+        <p>
+          Subscriptions are handled by Apple StoreKit. We do not receive your payment information.
+          Product identifiers:
+        </p>
+        <ul>
+          <li><code>com.myticketbox.premium.monthly</code></li>
+          <li><code>com.myticketbox.premium.yearly</code></li>
+        </ul>
+
+        <h2 class="h5 mt-4">5. PDF Export & Sharing</h2>
+        <p>
+          When you export, MyTicketBox generates a PDF locally on your device (temporary system directory).
+          The PDF may include selected ticket data and images, plus a summary (totals and category breakdown).
+          The app does not upload PDFs to our servers.
+        </p>
+        <p>
+          If you choose to share a PDF, it is shared using iOS system sharing, and the destination depends on what you select.
+        </p>
+
+        <h2 class="h5 mt-4">6. Data We Do Not Collect</h2>
+        <ul>
+          <li>No name, email, phone number, or contact list data is collected by the app.</li>
+          <li>No location data is collected.</li>
+          <li>No third-party advertising tracking is used.</li>
+          <li>No analytics data is collected by default.</li>
+        </ul>
+
+        <h2 class="h5 mt-4">7. Data Deletion</h2>
+        <ul>
+          <li>You can delete individual tickets inside the app.</li>
+          <li>Uninstalling the app removes locally stored data from your device.</li>
+          <li>Purchase history is managed by Apple and can be restored via your Apple ID.</li>
+        </ul>
+
+        <h2 class="h5 mt-4">8. Contact</h2>
+        <p>If you have questions about this policy, contact:</p>
+        <a href="mailto:SUPPORT_EMAIL_HERE" class="btn btn-primary">Email Support</a>
+
+        <p class="text-muted mt-4 mb-0">
+          © 2026 Your Name / Company
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
